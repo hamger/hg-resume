@@ -2,7 +2,7 @@
 [Hanger](https://hamger.github.io/resume/print.html)
 
 ## Introduction
-风格参考 @Ovilia @joyeecheung @lishengzxc
+这是一个程序员的简历模板，快速搭建自己的漂亮简历，风格参考 @DIYgod。
 
 ## Usage
 1. Star 本项目
