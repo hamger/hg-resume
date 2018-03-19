@@ -30,9 +30,9 @@
                 </li>
                 <li class="someRight">
                     <dt><i class="icon-bookmark"></i> Links. 相关链接</dt>
-                    <dd><i class="icon-github"></i> GitHub: github.com/hamger</dd>
-                    <dd><i class="icon-globe"></i> SF: segmentfault.com/u/mhg12300</dd>
-                    <dd><i class="icon-edit"></i> Blog: hamger.github.io</dd>
+                    <dd><i class="icon-github"></i> GitHub: <a href="https://github.com/hamger">github.com/hamger</a></dd>
+                    <dd><i class="icon-globe"></i> SF: <a href="https://segmentfault.com/u/mhg12300">segmentfault.com/u/mhg12300</a></dd>
+                    <dd><i class="icon-edit"></i> Blog: <a href="https://hamger.github.io/">hamger.github.io</a></dd>
                 </li>
                 <li class="someRight">
                     <dt><i class="icon-bookmark"></i> Contact. 联系方式</dt>
@@ -191,23 +191,29 @@
                     <ul class="exp">
                         <li>
                             <div class="circle"></div>
-                            <h4>组合广场四期</h4>
-                            <p>独立开发国金证券客户端（佣金宝）的组合广场，四期内容主要是投顾组合的数据展示，包括组合冠军榜、交易龙虎榜、特色组合的交易情况和排名。使用 vue-cli 搭建的单页应用。</p>
+                            <h4>组合广场</h4>
+                            <p>独立开发佣金宝（国金证券客户端）的组合广场四期，采用 vue + sass 编写。四期内容主要是投顾组合的数据展示，包括组合冠军榜、交易龙虎榜、特色组合的交易情况和排名。</p>
+                            <p>在这个项目中大量使用了自主开发的 Vue 组件库，如箭头组件、表头固定组件、加载状态组件等。 </p>
                         </li>
                         <li>
                             <div class="circle"></div>
                             <h4>数据中心</h4>
-                            <p>独立开发国金证券客户端（佣金宝）的数据中心，项目为单页面应用，其中包括条件选股、涨停分析、大宗交易、限售解禁、业绩披露、融资融券、股指期货、增减持、研报、停复牌和定向增发。采用 vue.js 框架配合 webpack 前端构建工具，使用 sass 编写样式代码。</p>
+                            <p>独立开发佣金宝的数据中心，项目为使用 vue-cli 搭建的单页面应用，包括条件选股、涨停分析、大宗交易等14个模块。</p>
+                            <p>组件采用懒加载，使用 sass 编写样式代码，对公共样式进行了抽离。封装了与客户端交互的函数，包括页面跳转、设置客户端头部、登录等功能。</p>
+                            <p>从项目中提炼出一些 Vue 组件，比如滑动删除组件、加载状态组件、表头固定组件等。在条件选股中使用了自己开发的地区选择器插件，在大宗交易中使用了自己开发的日期选择器插件。</p>
                         </li>
                         <li>
                             <div class="circle"></div>
                             <h4>模拟炒股</h4>
-                            <p>为国金证券客户端（佣金宝）开发模拟炒股，其中包括组合广场，个人主页，股友圈，调仓，炒股大赛。采用 sea.js 和 jQuery 开发。</p>
+                            <p>接手佣金宝模拟炒股的二期，使用 jquery 编写的传统项目，主要开发个人主页、调仓、炒股大赛等部分，进行了大量项目优化。原本开发需要远程修改测试服务器代码，我改进为在本地搭建 Nginx 服务，代理接口请求，实现本地开发调试。</p>
+                            <p>由于佣金宝使用的跳转规则和浏览器不一致，原本实际开发经常需要来回切换跳转逻辑，我将整个项目的跳转逻辑进行了封装，实现在客户端和浏览器本地调试都可以正常跳转。</p>
+                            <p>由于原项目文件名难以理解，修改了整个项目文件的的命名，并将js文件按功能划分为六个部分。封装了很多复用函数，并删除了大量冗余代码。</p>
                         </li>
                         <li>
                             <div class="circle"></div>
-                            <h4>消息推送模块</h4>
-                            <p>参与 cbas2.0 （用户行为分析系统）的前端开发工作，完成其中的消息推送模块，包括消息管理、消息栏目管理、推送效果分析。其中的统计图绘制用到了 echarts 。</p> 
+                            <h4>消息推送</h4>
+                            <p>参与 cbas2.0 （用户行为分析系统）的前端开发工作，主要负责开发其中的消息推送模块，包括消息管理、消息栏目管理、推送效果分析。</p> 
+                            <p>项目中的富文本编辑器使用了 tinymce ，统计图的绘制使用了 echarts 。</p>
                         </li>
                     </ul>
                     <h3>杭州巨盘科技有限公司（2016.12 - 2017.3）</h3>
@@ -215,7 +221,8 @@
                         <li>
                             <div class="circle"></div>
                             <h4>一米发域名交易平台</h4>
-                            <p>参与一米发域名交易平台的前端开发工作，实现域名拍卖和一口价交易的展示和交互，并完成中台域名资讯发布的功能。采用 jQuery 框架，部分样式采用 Bootstrap 框架。</p>
+                            <p>参与一米发域名交易平台的前端开发工作，实现域名拍卖和一口价交易的展示和交互，并完成中台域名资讯发布的功能。</p>
+                            <p>使用 jQuery 编写的逻辑代码，部分样式采用 Bootstrap 框架。</p>
                         </li>
                     </ul>
                 </li>
@@ -227,7 +234,7 @@
                             <h4>个人博客
                                 <a href="https://hamger.github.io" target="_blank"><i class="icon-link"></i>Blog</a>
                             </h4>
-                            <p>使用 hexo 搭建的个人博客，用于知识的巩固与积累，同时也希望可以对他人有所帮助。</p>
+                            <p>使用 hexo 搭建的个人博客，记录学习路上的点点滴滴，也用于知识的巩固与积累，同时也希望可以对他人有所帮助。</p>
                         </li>
                         <li>
                             <div class="circle"></div>
@@ -235,7 +242,8 @@
                                 <a href="https://github.com/hamger/hg-datepicker" target="_blank"><i class="icon-link"></i>源码</a>
                                 <a href="../demo/datepicker/datepicker.html" target="_blank"><i class="icon-link"></i>Demo</a>
                             </h4>
-                            <p>使用原生 JavaScript 制作的移动端的日期选择器，附有 demo 和使用说明文档，支持多个配置项，已在多个线上项目中使用，可通过 npm install hg-datepicker 下载。</p>
+                            <p>使用原生 JavaScript 制作的插件，用于移动端的日期选择。</p>
+                            <p>支持三种日期格式的选择，支持选择时间范围、滑动惯性、选择器样式的配置，附有 demo 和使用说明文档，已在多个线上项目中使用，可通过 npm install hg-datepicker 下载。</p>
                         </li>
                         <li>
                             <div class="circle"></div>
@@ -243,7 +251,8 @@
                                 <a href="https://github.com/hamger/hg-citypicker" target="_blank"><i class="icon-link"></i>源码</a>
                                 <a href="../demo/citypicker/citypicker.html" target="_blank"><i class="icon-link"></i>Demo</a>
                             </h4>
-                            <p>使用原生 JavaScript 制作的移动端的地区选择器，附有 demo 和使用说明文档，支持多个配置项，已在多个线上项目中使用，可通过 npm install hg-citypicker 下载。</p>
+                            <p>使用原生 JavaScript 制作的插件，用于移动端的多层嵌套数据的选择。</p>
+                            <p>数据展示多级联动，支持不定嵌套层数的 json 数据源，支持滑动惯性、选择器样式的配置，附有 demo 和使用说明文档，已在多个线上项目中使用，可通过 npm install hg-citypicker 下载。</p>
                         </li>
                         <li>
                             <div class="circle"></div>
@@ -251,7 +260,7 @@
                                 <a href="https://github.com/hamger/memory-turnover" target="_blank"><i class="icon-link"></i>源码</a>
                                 <a href="../demo/memory-turnover/index.html" target="_blank"><i class="icon-link"></i>Demo</a>
                             </h4>
-                            <p>一款锻炼记忆力的游戏，点击图片翻面，两张相同的图片会消除，不同则翻面，设有多档难度选择。</p>
+                            <p>一款锻炼记忆力的游戏，设有多档难度选择。点击翻开一张图片，点击翻开第二张图片时，若相同则消除这两张图片，若不同则闭合第一张图片，消除所有图片游戏结束。</p>
                         </li>
                         <li>
                             <div class="circle"></div>
@@ -281,34 +290,16 @@
                             <h4>Vue 组件库
                                 <a href="https://github.com/hamger/hg-vcomponents" target="_blank"><i class="icon-link"></i>源码&Demo</a>
                             </h4>
-                            <p>封装了一些常用的 Vue 组件，现阶段包括左滑删除、透明提示、加载状态、表头固定、页面顶置、进度条、圆形、箭头组件和文本省略组件，不定期更新。附有 demo 和使用说明文档，可以通过 npm install hg-vcomponents 下载使用。</p>
+                            <p>从实际项目中提炼出一些常用的组件并形成自己的 Vue 组件库。</p>
+                            <p>现阶段包括左滑删除、透明提示、加载状态、表头固定、页面顶置、进度条、圆形、箭头组件和文本省略组件等10个组件。附有 demo 和使用说明文档，可通过 npm install hg-vcomponents 下载使用。</p>
                         </li>
                         <li>
                             <div class="circle"></div>
                             <h4>仿简书网站
                                 <a href="https://github.com/hamger/myjs" target="_blank"><i class="icon-link"></i>源码</a>
                             </h4>
-                            <p>独立开发的阅读网站，主要实现文章的展示和管理、用户的登录注册、编辑个人信息等功能。前端主要是 vue + vue-router + vuex + axios + less，后端主要是 node.js + express + mysql。在此基础上进行个人实验性技术探索与研究。</p>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <dt><i class="icon-bookmark"></i> Skill. 技能清单</dt>
-                    <ul class="exp">
-                        <li>
-                            <div class="circle"></div>
-                            <h4>前端</h4>
-                            <p>熟悉 ES6 / jQuery / Bootstarp 的使用</p>
-                            <p>熟悉 Less / Sass css预编译处理语言</p>
-                            <p>熟练使用 Vue.js + vue-router + vuex 编写项目</p>
-                            <p>掌握使用 webpack 构建前端项目</p>
-                        </li>
-                        <li>
-                            <div class="circle"></div>
-                            <h4>后端</h4>
-                            <p>掌握 node.js 开发和 express 框架</p>
-                            <p>理解并掌握 SQL 常用语句</p>
-                            <p>了解 PHP 基础语法</p>
+                            <p>独立开发的阅读网站，主要实现文章的展示和管理、用户的登录注册、编辑个人信息等功能。</p>
+                            <p>前端主要是 vue + vue-router + vuex + axios + less，后端主要是 node.js + express + mysql。登陆注册功能使用了 node.js 的 crypto 模块进行加密解密。 在此基础上进行个人实验性技术探索与研究。</p>
                         </li>
                     </ul>
                 </li>
