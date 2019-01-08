@@ -1,5 +1,5 @@
 # My Resume
-✨[Welcome to Hanger's resume](https://hamger.github.io/resume/pdf.html)
+✨[Welcome to Hanger's resume](https://hamger.github.io/hg-resume/)
 
 ## Introduction
 这是一个适用于程序员的PDF简历模板，用于快速搭建漂亮的个人简历，风格参考 @DIYgod。
