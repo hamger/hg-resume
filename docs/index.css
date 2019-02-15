@@ -36,7 +36,7 @@ aside a {
   color: #fff;
 }
 
-.container {
+#app {
   width: 1260px;
   height: 1782px;
   position: relative;
@@ -66,6 +66,7 @@ aside a {
 }
 
 .title img {
+  border-radius: 50%;
   display: block;
   margin: 0 auto 15px;
   width: 150px;
@@ -93,9 +94,6 @@ h2 {
 .side-info dd {
   font-size: 16px;
   line-height: 25px;
-}
-
-.someRight dd {
   margin-left: 25px;
 }
 
@@ -108,7 +106,7 @@ h2 {
   font-size: 14px;
   display: inline-block;
   position: relative;
-  left: 25px;
+  left: 0px;
   top: -3px;
 }
 
@@ -242,11 +240,16 @@ h5 {
   width: inherit;
 }
 
-.hobby {
+.hobby dl {
   margin-top: 3px;
   display: flex;
 }
 
-.hobby div {
+.hobby dl div {
+  text-align: center;
   flex: 1;
+}
+.hobby dl div img {
+  width: 40px;
+  height: 40px;
 }
