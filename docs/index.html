@@ -36,7 +36,7 @@
             <dd v-for="item in $options.links">
               <i :class="item.icon"></i>
               {{ item.name }}
-              <a :href="item.url">{{ item.url }}</a>
+              <a :href="item.url" target="_blank">{{ item.url }}</a>
             </dd>
           </li>
           <li>
@@ -101,7 +101,7 @@
                       v-for="item3 in item2.link"
                       :href="item3.url"
                       target="_blank"
-                      ><i class="icon-link"></i>{{ item3.name + ' ' }}</a
+                      ><i class="icon-link"></i>{{ item3.name + " " }}</a
                     >
                   </template>
                   <template v-if="!item.names">
@@ -110,7 +110,7 @@
                       v-for="item2 in item.link"
                       :href="item2.url"
                       target="_blank"
-                      ><i class="icon-link"></i>{{ item2.name + ' ' }}</a
+                      ><i class="icon-link"></i>{{ item2.name + " " }}</a
                     >
                   </template>
                 </h4>
