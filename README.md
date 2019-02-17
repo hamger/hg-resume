@@ -2,7 +2,7 @@
 ✨[Welcome to Hanger's resume](https://hamger.github.io/hg-resume/)
 
 ## Introduction
-这是一个适用于程序员的PDF简历模板，用于快速搭建漂亮的个人简历，风格参考 @DIYgod。
+这是一个适用于程序员的PDF简历模板，用于快速搭建漂亮的个人简历，风格参考 [@DIYgod](https://github.com/DIYgod/Resume)。
 简历中的图标字体来源于[font-awesome](http://www.bootcss.com/p/font-awesome/)
 
 ## Usage
