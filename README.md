@@ -6,11 +6,10 @@
 简历中的图标字体来源于[font-awesome](http://www.bootcss.com/p/font-awesome/)
 
 ## Usage
-1. Star 本项目
-2. Clone 到本地
-3. 在 `docs/index.html` 文件中填写你的信息
-4. 生成PDF（以 OS X 操作系统 Chrome 浏览器为例）：打开`文件->打印`，设置布局为纵向，纸张尺寸为**A3**，边距无，背景图片选项打钩，保存；
-5. Enjoy it!
+1. Clone 到本地
+2. 在 `docs/index.html` 文件中填写你的信息
+3. 生成PDF（以 OS X 操作系统 Chrome 浏览器为例）：打开`文件->打印`，设置布局为纵向，纸张尺寸为**A3**，边距无，背景图片选项打钩，保存；
+4. Enjoy it!
 
 ## LICENSE
-MIT © [Hanger](https://hamger.github.io)
+MIT © [Hanger](https://github.com/hamger)
